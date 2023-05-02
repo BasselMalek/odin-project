@@ -18,7 +18,7 @@ body {
 }
 
 .header-logo-img {
-  width: 25%;
+  width: 30%;
 }
 
 .header-links {
@@ -33,10 +33,6 @@ a:link,
 a:visited {
   color: antiquewhite;
   text-decoration: none;
-}
-
-* {
-  border: 1px solid red;
 }
 
 .content {
@@ -82,21 +78,68 @@ a:visited {
 }
 
 .sec3 {
-  background-color: rgba(05, 107, 128, 0.681);
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 75px;
+  background-color: rgba(50, 50, 50);
+  padding: 0px 200px;
+  height: 200px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .sec3-quote {
+  color: aliceblue;
   font-style: italic;
   padding-bottom: 0px;
   text-align: center;
 }
 
 .sec3-quote-author {
+  color: aliceblue;
   text-align: right;
+}
+
+.sec4 {
+  color: antiquewhite;
+  height: 150px;
+  padding: 0px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec4-call-wrapper {
+  color: black;
+  height: 75px;
+  padding: 20px 50px;
+  background-color: aquamarine;
+  display: flex;
+  gap: 700px;
+}
+
+.button-section {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.call-title {
+  margin: 0;
+}
+.call-text {
+  text-align: start;
+  margin: 5px;
+}
+
+.footer {
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
 }
