@@ -16,18 +16,24 @@
         </div>
         <div class="game-space">
             <div class="tally">
-                <p class="stats">Current score:<span class="updatable" id="score"></span></p>
-                <p class="stats">Current round:<span class="updatable" id="round"></span></p>
-                <p class="stats">Last game's winner:<span class="updatable" id="last-game-winner"></span></p>
+                <p class="stats">Current player score: <span class="updatable" id="player-score"></span></p>
+                <p class="stats">Current computer score: <span class="updatable" id="computer-score"></span></p>
+                <p class="stats">Last game's winner: <span class="updatable" id="last-game-winner"></span></p>
             </div>
+            <button class="selection" id="start-button">Start</button>
             <div class="round-space">
-                <p class="result">placeholder</p>
-                <button class="selection" id="rock">Rock</button>
-                <button class="selection" id="paper">Paper</button>
-                <button class="selection" id="scissors">Scissors</button>
+                <p class="result" id="result-text">placeholder</p>
+                <div class="button-wrapper">
+                    <button class="selection" id="rock">Rock</button>
+                    <button class="selection" id="paper">Paper</button>
+                    <button class="selection" id="scissors">Scissors</button>
+                </div>
+
             </div>
         </div>
     </div>
+
 </body>
+<script src="script.js"></script>
 
 </html>
