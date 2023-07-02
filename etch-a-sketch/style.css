@@ -26,7 +26,8 @@ body {
 .etch-pad {
     width: 50vh;
     height: 50vh;
-    border: 1px solid red;
+    background-color: #ffffff;
+    border: 2px solid #da7b6e;
     display: flex;
 }
 
@@ -36,7 +37,18 @@ body {
     flex: 1 1 16px;
 }
 .vertical-grid {
+    border: 1px solid black;
     flex: 1 1 16px;
+}
+
+.info-button {
+    color: #da7b6e;
+    background-color: #17261f;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 2px solid #da7b6e;
+    cursor: pointer;
+    outline: none;
 }
 
 .meat {
