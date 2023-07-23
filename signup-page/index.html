@@ -9,8 +9,9 @@
 </head>
 
 <body>
+    <script src="script.js"></script>
     <div class="pretty-section">
-        <div class="logo-section"><img src="resources/Pineapples-trans.png" alt="Pineapple" class="logo-img">
+        <div class="logo-section"><img src="resources/Pineapples-trans.png" alt="Pineapple" id="logo" class="logo-img">
         </div>
     </div>
     <div class="main-section">
@@ -23,23 +24,23 @@
         <div class="form-section">
             <form action="google.com" method="post" id="signup-form" class=" signup-form">
                 <div class="left"><label for="first-name" class="signup-label">First Name</label><input type="text"
-                        name="first-name" id="first-name" class="signup-input">
+                        name="first-name" id="first-name" class="signup-input" required>
                     <label for="email" class="signup-label">Email</label><input type="email" name="email" id="email"
-                        class="signup-input">
+                        class="signup-input" required>
                     <label for="password" class="signup-label">Password</label><input type="password" name="password"
                         id="password" class="signup-input">
                 </div>
                 <div class="right"><label for="last-name" class="signup-label">Last Name</label><input type="text"
-                        name="last-name" id="last-name" class="signup-input">
-                    <label for="phone" class="signup-label">Phone Number</label><input type="number" name="phone"
-                        id="phone" class="signup-input">
+                        name="last-name" id="last-name" class="signup-input" required>
+                    <label for="phone" class="signup-label">Phone Number</label><input type="tel" name="phone"
+                        id="phone" class="signup-input" minlength="11">
                     <label for="password-confirm" class="signup-label">Confirm Password</label><input type="password"
                         name="password-confirm" id="password-confirm" class="signup-input">
                 </div>
             </form>
         </div>
         <div class="bottom-section">
-            <button form="signup-form" type="submit" class="submit-btn">Submit</button>
+            <button form="signup-form" type="submit" class="submit-btn">Create Account</button>
         </div>
     </div>
 </body>
