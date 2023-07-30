@@ -11,8 +11,8 @@ html {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(75px, 1fr));
 }
 
 .sidebar {
@@ -43,4 +43,23 @@ html {
 .spacer {
     grid-row: 7/9;
     grid-column: 1/3;
+}
+
+.top-space {
+    grid-column: 4/-1;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+
+.main-space {
+    grid-row: 3/-1;
+    grid-column: 4/-1;
+}
+
+.top-half {
+    width: inherit;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 75% 30%;
 }
