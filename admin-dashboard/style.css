@@ -19,10 +19,28 @@ html {
     background-color: aqua;
     grid-row: 1 / -1;
     grid-column: 1 / 4;
+    padding: 1rem;
+}
+
+.fa-solid {
+    text-align: center;
 }
 
 .sidebar-items {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: clamp(25px, 15px, 256px) clamp(3rem, 4rem, 6rem);
+    grid-template-rows: repeat(12, minmax(1rem, 1fr));
+    gap: 5px;
+    row-gap: 1.5rem;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 0.5rem;
+}
+.sidebar-titles {
+    grid-column: 2/2;
+}
+
+.spacer {
+    grid-row: 7/9;
+    grid-column: 1/3;
 }
